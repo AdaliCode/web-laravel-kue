@@ -8,7 +8,8 @@
     <div class="row g-3 mt-3">
         @for ($i = 0; $i < 10; $i++)
             <div class="col-md-4">
-                <div class="card" style="border-color: orangered">
+                {{-- <div class="card" style="border-color: orangered"> --}}
+                <div class="card">
                     <img src="{{ asset('storage/roti.jpg') }}" class="card-img-top" alt="...">
                     <div class="card-body">
                     <h5 class="card-title">breads</h5>
@@ -17,4 +18,5 @@
             </div>
         @endfor
     </div>
+    <script src="script.js"></script>
 @endsection
