@@ -7,11 +7,6 @@ body {
     font-weight: 400;
     font-style: normal;
 }
-
-/* .bg-orange {
-    border-color: orangered;
-} */
-
 .card:hover {
     border-color: orangered;
 }
